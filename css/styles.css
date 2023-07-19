@@ -8,12 +8,15 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100vh;
+}
+
 body {
   background-image: url("../img/v1016-c-08_1-ksh6mza3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
 }
 
 button {
@@ -54,6 +57,7 @@ select {
 
 /*header*/
 .todo-container {
+  align-items: center;
   max-width: 450px;
   margin: 3rem auto;
   background-color: #fdfdfd;
